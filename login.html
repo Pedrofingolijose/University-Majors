@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Login Form</title>
+</head>
+
+<body>
+   
+    <div class="login">
+         <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Login</h2>
+                <form method="POST">
+                    <div class="form-group">
+                        <label for="email">Email address</label><br><br>
+       <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <br>
+                        <label for="password">Password    </label><br><br>
+                        <input type="password" class="form-control" id="password" placeholder="Password">
+                    </div><br>
+                    <button type="submit" class="btn btn-primary">Login In</button>
+                    </form>
+                    <br><br>
+                    <div class="repass">
+                        <p >forgot password?<a href="email.html">change</a></p>
+                        <p >You don't have an account?<a href="signup.html">SignUp</a></a></p>
+                        <p id="demo3" onclick="ok()">OK</p>
+                        <!-- <p id="demo"></p> -->
+                    </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- <div class="img-interface"> -->
+        <!-- <img src="C:\Users\Admin\Pictures\Saved Pictures\cloth simulation.jpeg" width="100%" height="100%" > -->
+    <!-- </div> -->
+</div></div>
+
+
+
+
+
+   </html>
+<script>
+    function changePass(){
+window.location.href="email.html";
+    }
+    function sign(){
+window.location.href="signup.html";   
+    }
+    function ok(){
+        window.location.href="first.html";
+    }
+</script>
+<style>
+    
+body{
+    text-align: center;
+    display: inline-flexbox;
+    float: none;
+    
+    background-image: url('nike.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+a{
+    font-size:large;
+}
+
+.container{
+    
+
+    filter: none;
+text-align: center;
+    box-shadow: 0px 30px 60px -5px;
+    position: fixed;
+    padding-top: 55px;
+    padding-bottom: 95px;
+    padding-left: 50px;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 270px;
+    margin-top: 50px;
+    height: 50%;
+    width: 50%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(41, 19, 19);
+font-size: large;
+letter-spacing: 1px;
+box-shadow: 0px 30px 68px -5px  rgba(255, 0, 0, 0.927);
+    background-size: cover;
+background-color: rgba(255, 72, 0, 0.445);
+}
+.img-interface{
+    width:100% ;
+    height: 100%;
+}
+
+</style>
+
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+     
+    <div class="signup">
+
+
+
+   
+        <h2>Create Account</h2>
+    <br><br>
+    <form method="POST" action="connect.php">
+    <label for="password">Enter Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email">
+   
+                    <br><br>
+                     <label for="email"> Username:</label>
+                     <input type="text"  id="username" name="username" placeholder="Enter username">
+                 <br><br>
+                 <!-- <div class="change"> -->
+                    <label  id="e1">Password: </label>
+                    <input type="password"  id="pass" name="password" placeholder="Enter password"></body>
+                    <br>
+                    <br>
+                    <label  id="e2">Confirm Password: </label>
+                    <input type="password"  id="pass2" placeholder="Confirm password"></body>
+                    <br><br>   
+                    <button type="submit" id="demo"><a href="first.html">SignUp</a></button></form>
+                    <p id="demo1">if you already have an account</p>
+
+                    <p id="demo2" ><a href="login.html">login</a></p>
+                    <p id="demo3" onclick="ok()">OK</p>
+                 </div>
+                 
+<!-- <div class="img-interface"> -->
+    <!-- <img src="C:\Users\Admin\Pictures\Saved Pictures\cloth simulation.jpeg" width="100%" height="100%" > -->
+<!-- </div> -->
+</body>
+</html>
+<script>
+    function login(){
+        window.location.href="login.html";
+    }
+    function ok(){
+        window.location.href="first.html";
+    }
+</script>
+<style>
+    
+body{
+    text-align: center;
+    display: inline-flexbox;
+    float: none;
+    
+    background-image: url('nike.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+}
+
+.signup{
+    
+
+    filter: none;
+text-align: center;
+    box-shadow: 0px 30px 60px -5px;
+    position: fixed;
+    padding-top: 55px;
+    padding-bottom: 95px;
+    padding-left: 50px;
+    margin-left: 270px;
+    margin-right: 270px;
+    margin-bottom: 270px;
+    margin-top: 50px;
+    height: 50%;
+    width: 50%;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(41, 19, 19);
+font-size: large;
+letter-spacing: 1px;
+box-shadow: 0px 30px 68px -5px  rgba(255, 0, 0, 0.927);
+    background-size: cover;
+background-color: rgba(255, 72, 0, 0.445);
+}
+.img-interface{
+    width:100% ;
+    height: 100%;
+}
+
+</style>
