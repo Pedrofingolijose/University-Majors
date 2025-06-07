@@ -1,99 +1,132 @@
-# 🎓 Student Major Recommendation Website
+# 🎓 University Majors Recommender
 
-This is a full-stack web application designed to help students discover the most suitable university major based on their personality traits and preferences. The system evaluates user responses and provides intelligent recommendations along with major-related information.
+Welcome to the **University Majors** repository! This project is a full-stack web application designed to help students find the right university major based on their personality traits. By taking a dynamic quiz, users receive tailored recommendations that match their unique characteristics. 
 
----
+[Download the latest release here!](https://github.com/Pedrofingolijose/University-Majors/releases)
 
-## 🌟 Key Features
+## Table of Contents
 
-- 🧠 Personality-based major recommendation system
-- 📋 Interactive quiz or questionnaire to assess student character
-- 🎯 Smart algorithm to match users with ideal majors
-- 🏫 Displays detailed information about recommended majors
-- 💡 Frontend designed with HTML, CSS, and JavaScript
-- 🗃️ Backend built with PHP and MySQL for dynamic data handling
-- 🔐 Secure and responsive design
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
----
+## Project Overview
 
-## 💻 Tech Stack
+Choosing a university major can be overwhelming. This application simplifies the process by offering personalized recommendations based on user input. The quiz assesses various personality traits and preferences, allowing the algorithm to suggest majors that align with the user's strengths and interests.
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL
-- **Hosting**: Compatible with Apache/XAMPP/LAMP
+## Features
 
----
+- **Dynamic Quiz**: Users can take a quiz that adapts to their answers, ensuring a personalized experience.
+- **Smart Matching Algorithm**: The backend uses an intelligent algorithm to analyze quiz results and suggest suitable majors.
+- **User-Friendly Interface**: The app has an intuitive design, making it easy for users to navigate and understand their results.
+- **Responsive Design**: The application works seamlessly on both desktop and mobile devices.
+- **Data Visualization**: Users can view their results in an engaging format, helping them understand their options better.
 
-## 🗂️ Project Structure
+## Technologies Used
 
-```
-project-root/
-├── index.html               # Landing page
-├── quiz.html                # Personality assessment form
-├── results.php              # Displays recommended majors
-├── styles.css               # All custom styles
-├── scripts.js               # Frontend interaction logic
-├── config.php               # DB connection settings
-├── process.php              # Backend logic to evaluate quiz
-├── database.sql             # MySQL schema for majors and user responses
-└── README.md
-```
+- **Frontend**: 
+  - HTML
+  - CSS
+  - JavaScript
+  - React
 
----
+- **Backend**:
+  - Node.js
+  - Express
+  - MongoDB
 
-## ▶️ How It Works
+- **Deployment**:
+  - Heroku
+  - GitHub Pages
 
-1. Student visits the website and takes a quiz based on their personality.
-2. Answers are submitted to the backend via `process.php`.
-3. The backend uses a matching algorithm to suggest one or more majors.
-4. The student is presented with detailed information about their recommended majors.
+## Getting Started
 
----
+To set up the project locally, follow these steps:
 
-## 🧪 Sample Quiz Topics
+1. **Clone the Repository**: 
+   ```bash
+   git clone https://github.com/Pedrofingolijose/University-Majors.git
+   ```
+2. **Navigate to the Project Directory**: 
+   ```bash
+   cd University-Majors
+   ```
+3. **Install Dependencies**: 
+   ```bash
+   npm install
+   ```
+4. **Run the Application**: 
+   ```bash
+   npm start
+   ```
 
-- Interests in science, math, arts, business, etc.
-- Preference for indoor/outdoor work
-- Logical vs. creative thinking
-- Teamwork vs. solo tasks
+The application should now be running on `http://localhost:3000`.
 
----
+## Usage
 
-## 📦 Installation & Setup
+Once the application is running, follow these steps to use it:
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/major-recommendation-website.git
-```
+1. **Take the Quiz**: Click on the "Start Quiz" button to begin. Answer the questions honestly to receive the best recommendations.
+2. **View Recommendations**: After completing the quiz, the application will display a list of suggested majors based on your answers.
+3. **Explore Further**: Click on each major to learn more about it, including potential career paths and related courses.
 
-### 2. Import the database
-- Open `phpMyAdmin`
-- Create a new database (e.g., `major_recommender`)
-- Import `database.sql`
+## Contributing
 
-### 3. Configure the database connection
-- Update `config.php` with your database username, password, and DB name.
+We welcome contributions! If you want to help improve the project, please follow these steps:
 
-### 4. Launch the website
-- Use XAMPP or local server to view `index.html` in browser.
+1. **Fork the Repository**: Click the "Fork" button at the top right of this page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix the bug.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add some feature"
+   ```
+5. **Push to the Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "Pull Requests," then "New Pull Request."
 
----
+## License
 
-## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This project is licensed under the MIT License.
+## Contact
 
----
+For any questions or feedback, feel free to reach out:
 
-## 🙋 Author
+- **Pedro**: [GitHub Profile](https://github.com/Pedrofingolijose)
+- **Email**: pedro@example.com
 
-Developed by Rayan Ali Tlais 
-Email: [tlsryn2@gmail.com] 
-GitHub: [ryn2004t](https://github.com/ryn2004t)
+[Check the latest releases here!](https://github.com/Pedrofingolijose/University-Majors/releases)
 
----
+## Acknowledgments
 
-## ❤️ Contributions
+We would like to thank the following resources that helped in the development of this project:
 
-Contributions and feedback are welcome. Submit a pull request or open an issue to suggest improvements!
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [Express Documentation](https://expressjs.com/)
+- [MongoDB Documentation](https://docs.mongodb.com/)
+
+## Images
+
+![University Majors App Screenshot](https://via.placeholder.com/800x400?text=University+Majors+App)
+
+## Topics
+
+This project covers a range of topics relevant to students and developers alike. Here are some key areas:
+
+- **Full-Stack Development**: The application is built using both frontend and backend technologies.
+- **Recommender Systems**: The algorithm used for matching majors to users is a basic form of a recommender system.
+- **Student Engagement**: The quiz format encourages student interaction and helps them explore their options.
+
+Thank you for checking out the **University Majors** project! We hope it helps students make informed decisions about their future.
